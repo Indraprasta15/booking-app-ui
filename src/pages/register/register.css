@@ -1,0 +1,53 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: #0071c2;
+    margin-bottom: 20px;
+}
+
+.rContainer {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.rInput {
+    height: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.regButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.regButton:disabled {
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
+
+.rError {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}
+
+.rspan{
+    font-size: 12px;
+    text-align: center;
+}
